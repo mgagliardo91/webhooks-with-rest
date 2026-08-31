@@ -1,6 +1,7 @@
 class WebhooksController < ApplicationController
   WEBHOOK_HEADERS = ["HTTP_USER_AGENT", "CONTENT_TYPE", "HTTP_X_GITHUB_EVENT", "HTTP_X_GITHUB_DELIVERY", "HTTP_X_HUB_SIGNATURE"]
 
+# adds new comment
 #  before_action :verify_signature!
  before_action :verify_event_type!
 
