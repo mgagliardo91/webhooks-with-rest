@@ -66,6 +66,16 @@ With it copied to your clipboard, open a file called `/changelogger/.env` on you
 
 When we configure our webhook in a few minutes, we are going to do so with a random secret token. In general, it's best to use a very random string, but for today just pick anything that you can remember for long enough to configure your webhook with. Then follow exactly what we did for the personal access token but this time update the value of the environment variable `GITHUB_WEBHOOK_SECRET` to the one that you just copied.
 
+### ngrok authentication
+
+Create a free ngrok account and copy your authtoken from
+https://dashboard.ngrok.com/get-started/your-authtoken. Export it before
+starting the server:
+
+```
+export NGROK_AUTHTOKEN="<your-token>"
+```
+
 ## Enable GitHub Pages
 
 We will need GitHub Pages to be enabled in order to view the changelog we are creating. Go to the repository settings page

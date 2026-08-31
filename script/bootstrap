@@ -5,3 +5,8 @@ cp ./changelogger/.env.example ./changelogger/.env
 
 echo "Building docker image..."
 docker build -t changelogger .
+
+echo "Installing dependencies..."
+docker run --rm \
+  --mount type=bind,source="$(pwd)"/changelogger,target=/data/apps/changelogger \
+  changelogger:latest bundle install
