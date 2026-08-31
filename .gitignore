@@ -26,3 +26,4 @@ changelogger/storage/*
 # Ignore master key for decrypting credentials and more.
 changelogger/config/master.key
 changelogger/config/credentials/development*
+changelogger/vendor/
