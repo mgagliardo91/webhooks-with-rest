@@ -37,3 +37,12 @@ We added this together!
 
 [[diff](https://github.com/githubsatelliteworkshops/webhooks-with-rest/pull/20.diff)][[pull request](https://github.com/githubsatelliteworkshops/webhooks-with-rest/pull/20)]
 * * *
+# 2026-09-01 13:15:58 UTC
+
+By: ![avatar](https://avatars.githubusercontent.com/u/3301780?v=4&s=50) [mgagliardo91](https://github.com/mgagliardo91)
+
+- Removes comment
+- Adds remaining support
+
+[[diff](https://github.com/mgagliardo91/webhooks-with-rest/pull/4.diff)][[pull request](https://github.com/mgagliardo91/webhooks-with-rest/pull/4)]
+* * *
